@@ -1,4 +1,4 @@
-# Msc-trackingProject
+# Msc-tracking of small wildlife subject
 
 Author:Jingyuan HE
 
@@ -13,3 +13,4 @@ Code was also developed to evaluate this algorithm and compare it with others
 from the Main tracking API of OpenCV (MOSSE, KCF and CSRT). 
 
 To run the tracker, all that needs to change is the path of the pre-recorded fileor use live feed from a camera., and run the run.py.
+
