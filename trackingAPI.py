@@ -2,8 +2,6 @@ import cv2
 import sys
 import os
 
-video_number = '02'
-
 if __name__ == '__main__':
 
     # Set up tracker.
@@ -22,7 +20,7 @@ if __name__ == '__main__':
 
     # Read video
     img_path1 = 'D:/TrackingWildlife_project/TestVideo'
-    video_name = 'test_' + video_number + '.mp4'
+    video_name = 'test_01.mp4'
     video = cv2.VideoCapture(os.path.join(img_path1, video_name))
 
     # Exit if video not opened.
